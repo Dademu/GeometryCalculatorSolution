@@ -1,7 +1,6 @@
 using GeometryCalculatorLibrary;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace GeometryCalculatorTests;
 [TestClass]
 public class SquareTests
 {
