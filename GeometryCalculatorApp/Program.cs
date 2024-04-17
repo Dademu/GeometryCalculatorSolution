@@ -3,6 +3,7 @@ using GeometryCalculatorLibrary;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.FeatureManagement;
+
 namespace GeometryCalculatorApp;
 class Program
 {
@@ -44,8 +45,8 @@ class Program
                 // For simplicity, assuming all shapes require only one input parameter
                 if (shape is Square square)
                 {
-                    Console.Write("Side Length: ");
-                    square.SideLength = double.Parse(Console.ReadLine());
+                    Console.Write("Length: ");
+                    square.Length = double.Parse(Console.ReadLine());
                 }
                 else if (shape is Rectangle rectangle)
                 {

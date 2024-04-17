@@ -4,9 +4,9 @@ namespace GeometryCalculatorLibrary;
 public class Square : IShape
 {
     string IShape.Name => "Square"; // Implement Name property explicitly
-    public double SideLength { get; set; }
+    public double Length { get; set; }
 
-    public double CalculateArea() => SideLength * SideLength;
+    public double CalculateArea() => Length * Length;
 
-    public double CalculatePerimeter() => 4 * SideLength;
+    public double CalculatePerimeter() => 4 * Length;
 }
