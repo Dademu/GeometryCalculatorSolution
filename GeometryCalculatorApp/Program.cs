@@ -50,16 +50,22 @@ class Program
                 else if (shape is Rectangle rectangle)
                 {
                     Console.Write("Length: ");
-                    rectangle.Length = double.Parse(Console.ReadLine());
+                    var lengthInput = Console.ReadLine();
+                    rectangle.Length = lengthInput != null ? double.Parse(lengthInput) : 0.0;
+
                     Console.Write("Width: ");
-                    rectangle.Width = double.Parse(Console.ReadLine());
+                    var widthInput = Console.ReadLine();
+                    rectangle.Width = widthInput != null ? double.Parse(widthInput) : 0.0;
                 }
                 else if (shape is Triangle triangle)
                 {
                     Console.Write("Base: ");
-                    triangle.Base = double.Parse(Console.ReadLine());
+                    var baseInput = Console.ReadLine();
+                    triangle.Base = baseInput != null ? double.Parse(baseInput) : 0.0;
+
                     Console.Write("Height: ");
-                    triangle.Height = double.Parse(Console.ReadLine());
+                    var heightInput = Console.ReadLine();
+                    triangle.Height = heightInput != null ? double.Parse(heightInput) : 0.0;
                 }
 
                 Console.WriteLine($"Area of {shape.Name}: {shape.CalculateArea()}");

@@ -3,6 +3,7 @@ namespace GeometryCalculatorLibrary;
 
 public class Square : IShape
 {
+    string IShape.Name => "Square"; // Implement Name property explicitly
     public double SideLength { get; set; }
 
     public double CalculateArea() => SideLength * SideLength;

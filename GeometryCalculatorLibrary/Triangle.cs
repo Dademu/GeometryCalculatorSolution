@@ -3,6 +3,7 @@ namespace GeometryCalculatorLibrary;
 // Triangle.cs
 public class Triangle : IShape
 {
+    string IShape.Name => "Triangle"; // Implement Name property explicitly
     public double Base { get; set; }
     public double Height { get; set; }
 
