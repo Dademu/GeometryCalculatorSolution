@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeometryCalculatorLibrary", "GeometryCalculatorLibrary\GeometryCalculatorLibrary.csproj", "{B293FCC4-1D6E-4021-8ED2-6047483407B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeometryCalculatorApp", "GeometryCalculatorApp\GeometryCalculatorApp.csproj", "{2DD3416A-0257-443D-BF74-D37E31D46721}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeometryCalculatorTests", "GeometryCalculatorTests\GeometryCalculatorTests.csproj", "{D94A1A7E-3B02-4630-886C-969287C9BC23}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B293FCC4-1D6E-4021-8ED2-6047483407B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B293FCC4-1D6E-4021-8ED2-6047483407B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B293FCC4-1D6E-4021-8ED2-6047483407B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B293FCC4-1D6E-4021-8ED2-6047483407B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DD3416A-0257-443D-BF74-D37E31D46721}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DD3416A-0257-443D-BF74-D37E31D46721}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DD3416A-0257-443D-BF74-D37E31D46721}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DD3416A-0257-443D-BF74-D37E31D46721}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D94A1A7E-3B02-4630-886C-969287C9BC23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D94A1A7E-3B02-4630-886C-969287C9BC23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D94A1A7E-3B02-4630-886C-969287C9BC23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D94A1A7E-3B02-4630-886C-969287C9BC23}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
